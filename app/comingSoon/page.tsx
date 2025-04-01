@@ -2,16 +2,21 @@
 
 export default function ComingSoonPage() {
   return (
-    <main className="relative w-full h-screen flex flex-col items-center justify-center bg-black text-white">
-      {/* Arka Planda Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute w-full h-full object-cover"
-      >
-        <source src="/hero-video.mp4" type="video/mp4" />
-      </video>
+    <main className="relative w-full h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
+      {/* Arka Plan Görselleri */}
+      <picture className="absolute inset-0 w-full h-full z-0">
+        {/* Mobil görsel */}
+        <source srcSet="/mobile-comingSoon.jpg" media="(max-width: 768px)" />
+        {/* Masaüstü görsel */}
+        <img
+          src="/pc-comingSoon.jpg"
+          alt="Web sitemiz hazırlanıyor"
+          className="w-full h-full object-cover"
+        />
+      </picture>
+
+      {/* Overlay (karartma katmanı) */}
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-0" />
 
       {/* İçerik */}
       <div className="relative z-10 text-center px-6 flex flex-col items-center space-y-4">
@@ -26,7 +31,7 @@ export default function ComingSoonPage() {
         <p className="text-lg md:text-2xl font-semibold">Teşekkürler.</p>
 
         <p className="text-base md:text-lg mt-4">
-          <span className="font-semibold">İletişim:</span>  +90 553 542 22 34
+          <span className="font-semibold">İletişim:</span> +90 553 542 22 34
         </p>
       </div>
     </main>

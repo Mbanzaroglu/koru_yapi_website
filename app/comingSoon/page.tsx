@@ -13,13 +13,17 @@ export default function ComingSoonPage() {
         <source src="/hero-video.mp4" type="video/mp4" />
       </video>
 
-      {/* Metin */}
-      <div className="relative z-10 text-center px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-4">Web sitemiz güncelleniyor</h1>
-        <p className="italic text-lg md:text-xl mb-6">En kısa zamanda sizlerle olacağız. Teşekkürler.</p>
-        <p className="text-md md:text-lg">
-          İletişim: <span className="font-semibold">Şafak Türemez</span> — <a href="tel:+905535422234" className="underline hover:text-gray-300">+90 553 542 22 34</a>
+      {/* İçerik */}
+      <div className="relative z-10 text-center px-6 flex flex-col items-center space-y-4">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          Web sitemiz güncelleniyor
+        </h1>
+
+        <p className="text-base md:text-lg">
+          <span className="font-semibold">İletişim:</span> Şafak Türemez — +90 553 542 22 34
         </p>
+
+        <p className="italic text-sm md:text-base mt-6">En kısa zamanda sizlerle olacağız. Teşekkürler.</p>
       </div>
     </main>
   );

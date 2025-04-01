@@ -19,11 +19,14 @@ export default function ComingSoonPage() {
           Web sitemiz güncelleniyor
         </h1>
 
+
+        <p className="italic text-sm md:text-base mt-6">En kısa zamanda sizlerle olacağız.</p>
+        <p className="italic text-sm md:text-base mt-6">Teşekkürler.</p>
+
         <p className="text-base md:text-lg">
           <span className="font-semibold">İletişim:</span> Şafak Türemez — +90 553 542 22 34
         </p>
-
-        <p className="italic text-sm md:text-base mt-6">En kısa zamanda sizlerle olacağız. Teşekkürler.</p>
+        
       </div>
     </main>
   );

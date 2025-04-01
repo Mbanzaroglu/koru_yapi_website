@@ -45,9 +45,9 @@ const Header = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             <Link href="/" onClick={handleDisabledClick}> {/* Link geçici olarak devre dışı */}
-              <span className="text-2xl font-bold tracking-wide cursor-pointer text-white">
+                <span className="text-2xl font-extrabold tracking-wide cursor-pointer text-white">
                 Koru <span className="font-normal">Yapı</span>
-              </span>
+                </span>
             </Link>
           </motion.div>
 

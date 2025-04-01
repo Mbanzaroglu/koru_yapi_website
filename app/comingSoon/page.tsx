@@ -15,18 +15,19 @@ export default function ComingSoonPage() {
 
       {/* İçerik */}
       <div className="relative z-10 text-center px-6 flex flex-col items-center space-y-4">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          Web sitemiz güncelleniyor
+        <h1
+          className="text-4xl md:text-6xl font-bold tracking-tight"
+          style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
+        >
+          Web sitemiz güncelleniyor...
         </h1>
 
+        <p className="text-lg md:text-3xl mt-6">En kısa zamanda sizlerle olacağız.</p>
+        <p className="text-lg md:text-2xl font-semibold">Teşekkürler.</p>
 
-        <p className="italic text-sm md:text-base mt-6">En kısa zamanda sizlerle olacağız.</p>
-        <p className="italic text-sm md:text-base mt-6">Teşekkürler.</p>
-
-        <p className="text-base md:text-lg">
-          <span className="font-semibold">İletişim:</span> Şafak Türemez — +90 553 542 22 34
+        <p className="text-base md:text-lg mt-4">
+          <span className="font-semibold">İletişim:</span>  +90 553 542 22 34
         </p>
-        
       </div>
     </main>
   );

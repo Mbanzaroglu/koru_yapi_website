@@ -5,9 +5,7 @@ export default function ComingSoonPage() {
     <main className="relative w-full h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
       {/* Arka Plan Görselleri */}
       <picture className="absolute inset-0 w-full h-full z-0">
-        {/* Mobil görsel */}
         <source srcSet="/mobile-comingSoon.jpg" media="(max-width: 768px)" />
-        {/* Masaüstü görsel */}
         <img
           src="/pc-comingSoon.jpg"
           alt="Web sitemiz hazırlanıyor"
@@ -32,6 +30,10 @@ export default function ComingSoonPage() {
 
         <p className="text-base md:text-lg mt-4">
           <span className="font-semibold">İletişim:</span> +90 553 542 22 34
+        </p>
+
+        <p className="text-base md:text-lg mt-1">
+          <span className="font-semibold">Adres:</span> Esentepe Mah. Büyükdere Cd. Ferko Signature No: 175 / 6 ŞİŞLİ / İSTANBUL
         </p>
       </div>
     </main>

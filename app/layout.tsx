@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Koru Yapı | İnşaat",
-  description: "Koru Yapı İnşaat Resmi Web Sitesi",
+  description: "Koru Yapı | İnşaat Resmi Web Sitesi",
 };
 
 export default function RootLayout({

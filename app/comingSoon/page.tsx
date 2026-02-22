@@ -33,6 +33,10 @@ export default function ComingSoonPage() {
         </p>
 
         <p className="text-base md:text-lg mt-1">
+          <span className="font-semibold">Mail:</span> info@koruyapi.com
+        </p>
+
+        <p className="text-base md:text-lg mt-1">
           <span className="font-semibold">Adres:</span> Esentepe Mah. Büyükdere Cd. Ferko Signature No: 175 / 6 ŞİŞLİ / İSTANBUL
         </p>
       </div>

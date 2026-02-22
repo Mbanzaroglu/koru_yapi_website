@@ -75,7 +75,7 @@ const ContactPage = () => {
                 className="flex items-center gap-4 text-gray-700"
                 >
                 <Mail size={24} className="text-blue-600" />
-                <span>info@firma.com</span>
+                <span>info@koruyapi.com</span>
                 </motion.div>
             </div>
 
